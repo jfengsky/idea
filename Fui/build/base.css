@@ -1,7 +1,6 @@
-/**
+/*
  * css reset
  */
-
 html,
 body,
 div,
@@ -78,13 +77,11 @@ section,
 summary,
 time,
 audio,
-video 
-  padding: 0
-  margin: 0
-  border: 0
+video {
+  padding: 0;
+  margin: 0;
+  border: 0; }
 
-// 横竖屏字体仍保持100%
-html
-  -webkit-text-size-adjust: 100%
-  -ms-text-size-adjust: 100%
-
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
