@@ -1,0 +1,15 @@
+/*
+ * button
+ */
+[class*="button"] {
+  position: relative;
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 0;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 3px; }
+  [class*="button"]:active {
+    padding-top: 3px;
+    padding-bottom: 3px; }
